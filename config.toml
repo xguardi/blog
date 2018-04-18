@@ -1,3 +1,15 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl             = "https://xguardi.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Xavier Guardiola"
+title               = "L'illa del logaritme"
+pygmentsuseclasses  = true
+disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-123-45"
+
