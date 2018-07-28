@@ -1,0 +1,6 @@
+# Hugo cheatsheet
+
+# Launch local server and watch for changes
+$ hugo server
+
+

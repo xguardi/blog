@@ -2,14 +2,44 @@ baseurl             = "https://xguardi.github.io/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
-languageCode        = "en-US"
+languageCode        = "es-ES"
 layoutdir           = "layouts"
 publishdir          = "public"
 theme               = "cocoa"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -100
+identifier             = "about"
+url                    = "/fixed/about/"
+
+
+[params]
 author              = "Xavier Guardiola"
-title               = "L'illa del logaritme"
+title               = "Logarithm island"
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Don't panic"
+extracssfiles          = [ "/css/override.css" ]
+github                 = "//github.com/xguardi"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/xavierguardiola"
+noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/xguardi"
 pygmentsuseclasses  = true
 disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = "UA-123-45"
+googleAnalytics     = "UA-27547062-2"
 
+avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)

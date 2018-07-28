@@ -1,0 +1,45 @@
+---
+title: "Castells de dades - Els darrers 100 anys"
+date: 2018-04-17T18:54:11+02:00
+---
+
+Aquests darrers anys, els castells han mostrat una evolució espectacular. Tant en nombre de colles com en les construccions, cada cop més difícils, que han anat assolint. L'etiqueta de *la millor diada de la història* s'ha tornat una expressió estereotipada, repetida incessantment en les cròniques castelleres. Si per exemple algú ens hagués dit fa uns anys que veuríem colles descarregant dos castells de deu en una mateixa diada, l'haguéssim pres per un il·luminat.
+Crec que és un bon moment, en aquesta voràgine de contínua autosuperació, per parar un segon, mirar endarrere i fer un petit exercici de perspectiva. Per saber on som i com s'hi ha arribat. 
+
+Al món casteller tenim la sort de tenir un grup de persones que durant molt de temps han anat recopilant i actualitzant dades sobre els castells que s'han fet. Una iniciativa que va sorgir de la Colla Jove dels Xiquets de Tarragona (CJXT) i que actualment podem consultar a la [web de Coordinadora](http://www.cccc.cat/base-de-dades). Aquesta base de dades recull castells fets des del 1925, coincidint amb l'inici de la renaixença castellera del segle passat. Això són molts castells! un total de 230.000 construccions durant un període de gairebé --permeteu-me la llicència-- 100 anys. 
+
+Amb tots aquests registres, anem a obtenir una vista general d'aquests darrers 100 anys. Per fer-ho, necessitarem una **mètrica** (xifra) que ens resumeixi l'activitat castellera de cada temporada. De mètriques se'n poden muntar tantes com vulguem, però una de les més senzilles és la dels **punts acumulats**: sumar tots els punts (d'acord amb la darrera taula de puntuació del Concurs de Castells) de tots els castells fets per totes les colles en un any.
+
+![](/img/evolucio_punts_totals.png)
+
+Com es pot observar en el gràfic, al llarg del segle XX es distingeixen clarament **tres grans períodes de creixement**: el primer durant les dècades dels 70 i 80, un segon que va des de l'any 92 fins al nou segle i finalment el comprés entre el 2009 i l'actualitat.
+
+Ara bé, hem d'anar amb compte perquè a l'agregar els punts de tots castells de totes les colles, estem en realitat observant l'efecte conjunt de dos fenòmens, d'una banda la millora en la qualitat de les construccions i de l'altre, l'augment del nombre de colles. Totes dues coses contribueixen a l'augment total del nombre de punts. Per tal desentrellaçar-ho i veure la contribució de cada factor, anem a visualitzar com ha evolucionat el nombre de colles durant tot aquest temps.
+
+![](/img/evolucio_colles.png)
+
+Des del 1926 fins arribar a la dècada dels 70 el nombre de colles en actiu sempre va estar limitat inicialment a les de Valls-Vendrell-Tarragona, a les que es van anar incorporant Vilafranca (1948) o Barcelona (1969) entre d'altres. És a partir dels 70, i sobretot en plena transició democràtica que observem el primer increment significatiu de colles. Bordegassos, Minyons de Terrassa, Castellers de Sitges, Altafulla o els Xiquets Reus són algunes de les noves formacions que emergeixen durant aquest període on es constata una duplicació del nombre de colles, de 10 a 20. Després d'uns anys d'assentament, durant la segona meitat dels 80, arriba la gran revolució mediàtica del món casteller a partir de l'any olímpic (1992), amb una segona etapa de creixement que només podem titllar d'espectacular. El nombre de colles es multiplica per 3, passant de 20 a 60. Castellers de Sabadell, Lleida, Moixiganguers d'Igualada, Capgrossos de Mataró, Marrecs de Salt, Castellers de Mallorca, entre molts altres, expandeixen el fet casteller arreu del territori. Posteriorment, durant la primera dècada del nou segle, segueixen uns anys de ressaca, amb la desaparició d'algunes colles, fins arribar a la segon revolució que s'inicia el 2011. Des de llavors i fins al dia d'avui (2018), el món casteller veu com el nombre de colles es torna a duplicar, de 50 a 100. **100 colles!** aviat és dit. En aquesta nova fornada trobem, per exemple, els Castellers de Berga, Xiqüelos del Delta, Castellers de Solsona i totes les colles universitàries.
+
+Existeix un **hipòtesi** sostinguda per varis sociòlegs que diu que el món casteller s'expandeix en èpoques de crisi econòmica i més atur. L'argument és que apuntar-se a una colla castellera és una activitat gratuïta on, a banda de fer castells, es fan un seguit d'activitats socials (viatges, sopars, concerts, etc.) que, a més, reforcen el sentit de pertinença a una comunitat. 
+
+Com a **exercici**, en el gràfic de l'evolució del nombre de colles apareixen indicades les tres darreres crisis: [les crisis del petroli](https://es.wikipedia.org/wiki/Historia_econ%C3%B3mica_de_Espa%C3%B1a#La_Crisis_del_petr%C3%B3leo_de_1973), [la crisi post olímpica del 1993](https://es.wikipedia.org/wiki/Crisis_econ%C3%B3mica_de_1993_en_Espa%C3%B1a) i finalment [la crisi financera actual](https://ca.wikipedia.org/wiki/Crisi_financera_espanyola). Sobre el paper sembla que efectivament sembla haver-hi una correlació entre crisis i creixement en el nombre de colles. I, tot i que aquesta observació no és suficient per justificar la relació cause-efecte, sembla que, efectivament, existeix una **coincidència entre ambdós fenòmens**.
+
+Mirant com ha crescut el nombre de colles, observem que el patró coincideix bastant amb el primer gràfic que hem aportat amb el total de punts totals. Sembla clar doncs, que és el nombre de colles el que domina la contribució al volum de punts. Com podríem mesurar l'altre factor: la millora en la qualitat de les construccions? Una proposta, segurament la més simple, és normalitzar (dividir) el nombre de punts totals pel nombre de colles. D'aquesta manera tindrem una quantitat que representaria la mitjana de punts anuals per colla.
+
+![](/img/evolucio_punts_per_colla.png)
+
+Podem veure com la mitjana de punts per colla presenta un patró força interessant. En primer lloc, podem comprovar com la Guerra Civil (1936-39) estronca la millora en el nivell casteller (primers 4de8 i el 3de8 carregat per la Colla Nova dels Xiquets de Valls) de forma només temporal, ja que a partir de la segona meitat dels anys 40 el nivell casteller es recupera completament i fins i tot es supera (l'any 51 els Nens descarreguen el primer 3de8 del segle XX). Però, aquesta tendència positiva s'esvaeix durant la dècada dels 50 i primera meitat dels 60. 
+
+En segon lloc, podem veure com **a partir de la segona meitat dels 60 i principis del 70 s'inicia una etapa de creixement del nivell casteller que arriba fins a l'actualitat**. Què va passar aquells anys? Són els anys de rivalitat intensa entre la Colla Vella dels Xiquets de Valls i Nens del Vendrell. Anys on es van convocar tot un regitzell de concursos oficiosos ([Can Jorba](https://ca.wikipedia.org/wiki/I_Gran_Trofeu_Jorba-Preciados), [els Anxenetes de Plata](https://ca.wikipedia.org/wiki/I_Trofeu_Anxaneta_de_Plata)) i que desembocaren en el primer Concurs de Castells de Tarragona *modern* l'any 1971. Pel camí, es van reinventar els folres i recuperar castells com el pde6, pde7f, Tde8f o el 5de8.
+
+Com podem observar, les dades mostres una continuïtat ininterrompuda que comença en aquells anys i s'estén fins a l'actualitat. Vist amb aquesta nova perspectiva, si hi ha algun **punt d'inflexió** en la sèrie temporal dels darrers 100 anys és precisament durant aquests anys al tombant dels 60 i principis dels 70.
+
+Una altra manera de visualitzar l'evolució del nivell casteller és mostrant quin és el castell més valuós aconseguit cada temporada:
+
+![](/img/evolucio_maxim_castell.png) 
+
+En aquest gràfic tornem a veure, m'atreviria a dir que més clarament i tot, com aquests anys representen la clau de volta entre un període previ d'estancament i el creixement sostingut que encara gaudim a dia d'avui. 
+
+Durant molts anys, els historiadors del món Casteller han ubicat una frontera, una divisòria entre el període conegut com *La Renaixença* (1926-1981) i la *Segona època d'or*, amb el primer castell de nou descarregat per la Vella de Valls com a frontissa (1981). Vist amb aquesta nova perspectiva que ens ofereix el pas del anys i les dades, sembla que hauríem de situar abans el punt d'inflexió que obre les portes d'aquest període de creixement ininterromput que encara gaudim avui en dia.
+
+Una altra lectura interessant del gràfic anterior és la vertiginosa linealitat del creixement d'aquest període fins a l'actualitat (línia vermella). Es fa difícil creure que es pugui continuar a aquest ritme. Tot i que, quantes vegades hem sentit a dir allò de *mai veurem descarregar el castell X!* per veure-ho refutat al cap d'unes temporades? Qui sap. Obviament, existeixen límits físics i de volum de persones que impossibiliten segurament un 3de12, però la progressió que mostren les dades és una declaració d'intencions i un testimoni a la perseverança i valentia de les colles que han anat trencat els successius sostres castellers al llarg de la història.
